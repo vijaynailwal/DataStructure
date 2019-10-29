@@ -13,7 +13,6 @@ public class BubbleSort {
         for (int i = 0; i < n; i++)
         {
             for (int j = 1; j < (n - i); j++) {
-                System.out.println("Comparing " + array[j - 1] + " and " + array[j]);
                 if (array[j - 1] > array[j]) {
                     //  --------------- swap elements ----------------------------------
                     temp = array[j - 1];
@@ -30,6 +29,6 @@ public class BubbleSort {
         for (int i = 0; i < array.length; i++) {
             System.out.print(array[i] + " ");
         }
-        System.out.println();
+
     }
 }
